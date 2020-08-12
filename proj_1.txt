@@ -1,5 +1,5 @@
-dangol@ddangol-VirtualBox:~$ mkdir project_1
-ddangol@ddangol-VirtualBox:~$ cd project_!
-bash: cd: project_!: No such file or directory
-ddangol@ddangol-VirtualBox:~$ cd project_1
-ddangol@ddangol-VirtualBox:~/project_1$ mkdir p- folder_{1..1000}
+#! /usr/bin/bash
+for i in {1..1000};
+do 
+	echo "line$i" >>proj_2.txt
+done
